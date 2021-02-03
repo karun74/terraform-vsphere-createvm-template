@@ -19,5 +19,5 @@ variable "vm_ip" {
 }
 variable vm_ip4_gateway{
 type="string"
-  default="192.168.1.254"
+default="192.168.1.254"
 }
