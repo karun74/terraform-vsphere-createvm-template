@@ -7,7 +7,7 @@ variable "vsphere_password" {
   type="string"
 }
 variable "vsphere_server" {
-  default="vcsa.dell.local"
+  default="192.168.1.20"
 }
 variable "vm_name" {
   type="string"
