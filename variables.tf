@@ -7,7 +7,7 @@ variable "vsphere_password" {
   type="string"
 }
 variable "vsphere_server" {
-  default="192.168.1.20"
+  default="vcsa.dell.local"
 }
 variable "vm_name" {
   type="string"
@@ -21,3 +21,8 @@ variable vm_ip4_gateway{
 type="string"
   default="192.168.1.254"
 }
+variable vm_template_name{
+  type="string"
+  default="photon-template"
+}
+
